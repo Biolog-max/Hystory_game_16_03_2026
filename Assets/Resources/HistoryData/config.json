@@ -1,0 +1,27 @@
+{
+  "halls": [
+    { "id": "hall_russia_19", "name": "Россия XIX в.", "description": "Отечественная война 1812, декабристы, реформы" },
+    { "id": "hall_europe_20", "name": "Европа нач. XX в.", "description": "Первая мировая, революции, межвоенный период" },
+    { "id": "hall_ussr_20", "name": "СССР XX в.", "description": "Великая Отечественная, послевоенный период" }
+  ],
+  "walls": [
+    { "id": "weapons", "name": "Оружие", "description": "Ружья, штыки, сабли, пули" },
+    { "id": "household", "name": "Бытовые предметы", "description": "Монеты, ложки, посуда, пуговицы" },
+    { "id": "documents", "name": "Документы", "description": "Письма, карты, медали, награды" }
+  ],
+  "tools": [
+    { "id": "ruler", "name": "Линейка", "reveals": "size", "description": "Измеряет размер предмета" },
+    { "id": "carbon", "name": "\u00b9\u2074C Анализ", "reveals": "year", "description": "Определяет год изготовления" },
+    { "id": "scales", "name": "Весы", "reveals": "weight", "description": "Определяет вес предмета" },
+    { "id": "dictionary", "name": "Словарь", "reveals": "textLanguage", "description": "Определяет язык надписей" }
+  ],
+  "scoring": {
+    "correctHall": 50,
+    "correctWall": 50,
+    "bothCorrectBonus": 100,
+    "allPlacedBonus": 50,
+    "allCorrectBonus": 200,
+    "speedBonus": 30,
+    "speedThresholdSec": 180
+  }
+}
